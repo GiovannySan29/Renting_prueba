@@ -25,8 +25,9 @@
                    
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
+                    <a class="btn btn-primary my-2 my-sm-0 ml-2 mr-3 text-white" type="button" href="<?php echo base_url(). "Home/Update " ?>">Update</a>
                     <a class="btn btn-primary my-2 my-sm-0 text-white" type="button" href="<?php echo base_url(). "Home/Login" ?>">Login</a>
-                    <a class="btn btn-primary my-2 my-sm-0 ml-2 mr-3 text-white" type="button" href="<?php echo base_url(). "Home/register" ?>">Registro</a>
+                    <a class="btn btn-primary my-2 my-sm-0 ml-2 mr-3 text-white " type="button" href="<?php echo base_url(). "Home/register" ?>">Registro</a>
                     <input class="form-control mr-sm-2" type="search" placeholder="búsqueda" aria-label="Search">
                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">búsqueda</button>
                 </form>

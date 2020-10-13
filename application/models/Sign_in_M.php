@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class User_Model extends CI_Model {
+class Sign_in_M extends CI_Model {
 
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->model("User_Model");
+		$this->load->model("Sign_in_M");
 	}
       public function insertUser( $user, $passw, $name,  $lastname,  $email, $identification, $typeIdentification ) 
       { 

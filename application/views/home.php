@@ -1,4 +1,4 @@
-
+<form action="<?php echo base_url(). "home/insertUser"?>"  method= "POST">
  <main>
  <div class="carousel-item">
             <img src="img/Ca.jpg" class="d-block w-100" alt="img2">
