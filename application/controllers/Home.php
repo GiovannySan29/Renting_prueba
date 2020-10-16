@@ -28,6 +28,12 @@ class Home extends CI_Controller {
 		$this->load->view('Update_V');
         $this->load->view('Layouts/footer');
 	}
+	public function delete()
+	{
+		$this->load->view('Layouts/header');
+		$this->load->view('delete_V');
+        $this->load->view('Layouts/footer');
+	}
 	// public function insertUser(){
 	// 	$this->load->view('Layouts/header');
 	// 	$this->load->view('home');
