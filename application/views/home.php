@@ -1,6 +1,6 @@
 <form action="<?php echo base_url(). "home/insertUser"?>"  method= "POST">
  <main>
- b v s="btn btn-danger">ELiminar</a>
+ 
             </div>
         </div>
     </div>

@@ -15,7 +15,9 @@ class Sign_in_M extends CI_Model {
         ({$user}, {$passw}, {$name}, {$lastname},   {$email} ,{$identification},{$typeIdentification })");
       } 
 
-
+     
+         
+      
 }
   
     
