@@ -10,10 +10,10 @@
                         
                     <div class="form-group">
                                  <label for="nombreUsuario">ID:</label>
-                                 <input type="text" class="form-control" id="user" name="id"  placeholder="id" required >
+                                 <input type="text" class="form-control" id="identification" name="identification"  placeholder="id" required >
                                  <small id="user" class="form-text text-muted">Enter a id to identify yourself on the platform</small>
                     </div>
-                        <label >TypeIdentification:</label>
+                        <!-- <label >TypeIdentification:</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="typeIdentification" id="typeIdentification" value="cc" checked>
                             <label class="form-check-label" for="exampleRadios1">
@@ -30,7 +30,7 @@
                         <div class="form-group">
                             <label for="direccion">Identification:</label>
                                 <input type="text" class="form-control" id="identification" name="identification" placeholder="Identification" maxlength="10"  required >
-                    </div> 
+                    </div>  -->
                     <div class="form-group">
                         <label for="nombreUsuario">User:</label>
                             <input type="text" class="form-control" id="user" name="user"  placeholder="user" required >
@@ -52,7 +52,7 @@
                         <label for="email">Email:</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="email" required >
                     </div>
-                <button type="submit" class="btn btn-primary btn-block mb-5" id="btnUpdate" name="btnUpdate">Update account</button>
+                <button type="submit" class="btn btn-primary btn-block mb-5" id="Update" name="Update">Update account</button>
             </div>
         </div>  
     </div>

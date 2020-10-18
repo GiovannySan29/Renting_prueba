@@ -14,10 +14,6 @@ class Sign_in_M extends CI_Model {
         return $name=$this->db->query("INSERT INTO users(user, passw, name, lastname, email ,identification, typeIdentification ) values 
         ({$user}, {$passw}, {$name}, {$lastname},   {$email} ,{$identification},{$typeIdentification })");
       } 
-
-     
-         
-      
 }
   
     
