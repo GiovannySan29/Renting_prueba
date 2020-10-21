@@ -10,7 +10,7 @@ class Update_M extends CI_Model{
   
     function update($id,$user,$passw,$name,$lastname,$email,$identification,$typeIdentification)
 	{
-	$this->db->query("UPDATE users SET user='$user',passw='$passw', name='$name', lastname='$lastname',email='$email' WHERE identification='".$identification."'");
+	$this->db->query("UPDATE users SET user='$user',passw='$passw', name='$name', lastname='$lastname',email='$email',typeIdentification='$typeIdentification'  WHERE  identification='".$identification."' ");
 	}	
 }
 	

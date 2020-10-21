@@ -14,7 +14,7 @@ class Delete_C extends CI_Controller{
     $typeIdentification=$this->input->post('typeIdentification');
 	$r =$this->Delete_M->delete($identification,$typeIdentification);
     if($identification ==true && $typeIdentification ==true){
-        if($r===true){
+        if($r==true){
             $this->load->view('Layouts/header');
             $this->load->view('home');
             $this->load->view('Layouts/footer');

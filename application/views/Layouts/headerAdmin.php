@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="../Renting_prueba/assets/css/Style.css">
     <link rel="stylesheet" href="../Renting_prueba/assets/img">
@@ -19,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+            <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url(). "home/index" ?>">principal</a>
                     </li>
                     <li class="nav-item">
@@ -28,7 +30,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url(). "home/hotels" ?>">hotels</a>
                     </li>
-                   
                    <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url(). "home/house" ?>">house</a>
                     </li>
@@ -46,7 +47,8 @@
         </div>
       </li>
                 <form class="form-inline my-2 my-lg-0">
-                   
+                    <a class="btn btn-outline-danger my-2 my-sm-0 ml-2 mr-3 text-white" type="button" href="<?php echo base_url(). "Home/Delete " ?>">Delete</a>
+                    <a class="btn btn-outline-secondary my-2 my-sm-0 ml-2 mr-3 text-white" type="button" href="<?php echo base_url(). "Home/Update " ?>">Update</a>
                     <a class="btn btn-outline-primary  my-2 my-sm-0 text-white" type="button" href="<?php echo base_url(). "Home/Login" ?>">Login</a>
                     <a class="btn btn-outline-success my-2 my-sm-0 ml-2 mr-3 text-white " type="button" href="<?php echo base_url(). "Home/register" ?>">Registro</a>
                     <input class="form-control mr-sm-2" type="search" placeholder="búsqueda" aria-label="Search">
@@ -57,4 +59,3 @@
     </header>
     <header></header>
     <br><br><br><br>
-    
