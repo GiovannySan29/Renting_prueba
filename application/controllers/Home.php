@@ -19,23 +19,22 @@ class Home extends CI_Controller {
 	public function cabins()
 	{	$this->load->view('Layouts/header');
 		$this->load->view('cabins');
-        // $this->load->view('Layouts/footer');
+        $this->load->view('Layouts/footer');
 	}
 	public function hotels()
 	{	
 		$this->load->view('Layouts/header');
 		$this->load->view('hotels');
-        // $this->load->view('Layouts/footer');
+        $this->load->view('Layouts/footer');
 	}
 	public function register()
 	{
 		$this->load->view('Layouts/header');
 		$this->load->view('sign_in_V');
-        // $this->load->view('Layouts/footer');
+    	$this->load->view('Layouts/footer');
 	}
 	public function login()
-	{
-		
+	{		
 		$this->load->view('Login');
         $this->load->view('Layouts/footer');
 	}
@@ -51,10 +50,11 @@ class Home extends CI_Controller {
 		$this->load->view('delete_V');
         $this->load->view('Layouts/footer');
 	}
-	// public function insertUser(){
-	// 	$this->load->view('Layouts/header');
-	// 	$this->load->view('home');
-	// }
+	public function crud(){
+		$this->load->view('Layouts/header');
+		$this->load->view('crud_V');
+		$this->load->view('Layouts/footer');
+	}
 	
 	
 }
