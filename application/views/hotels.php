@@ -2,9 +2,6 @@
 
 
 <body style="background-color: #9C6650">
-
-
-
     <div class="card bg-dark text-white">
         <img src="../assets/img/hotel3.jpeg" class="card-img" alt="...">
         <div class="card-img-overlay">
@@ -16,7 +13,6 @@
                         <p class="card-text"></p>
         </div>
     </div>
-
     <section class="container">
         <div class="row mt-3">
             <div class="col-sm-4">
@@ -30,8 +26,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="col-sm-4">
                 <div class="card">
                     <img src="../assets/img/hotel5.jpeg" class="card-img-top" alt="card1">
@@ -56,9 +50,7 @@
                     </div>
                 </div>
             </div>
-
             <br>
-
             <section class="container">
                 <div class="row mt-3">
                     <div class="col-sm-4">
@@ -73,8 +65,6 @@
                             </div>
                         </div>
                     </div>
-
-
                     <div class="col-sm-4">
                         <div class="card">
                             <img src="../assets/img/hotel8.jpeg" class="card-img-top" alt="card1">
@@ -99,5 +89,7 @@
                             </div>
                         </div>
                     </div>
-
+                </div>
+        </div>
+    </section>
 </body>

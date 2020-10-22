@@ -2,11 +2,8 @@
 
 
 <body style="background-color: #F9EA82">
-
-
-
     <div class="card bg-dark text-white">
-    <img src="../assets/img/cabins8.jpeg" class="card-img" alt="...">
+        <img src="../assets/img/cabins8.jpeg" class="card-img" alt="...">
         <div class="card-img-overlay">
             <br><br>
             <font size=6 class="card-title"><b>UNIQUE <p> ACCOMMODATIONS<b></font>
@@ -15,7 +12,6 @@
                                 <p class="card-text"></p>
         </div>
     </div>
-
     <section class="container">
         <div class="row mt-3">
             <div class="col-sm-4">
@@ -29,11 +25,9 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="col-sm-4">
                 <div class="card">
-                <img src="../assets/img/cabins2.jpeg" class="card-img-top" alt="card1">
+                    <img src="../assets/img/cabins2.jpeg" class="card-img-top" alt="card1">
                     <div class="card-body">
                         <h5 class="card-title">Cabin el retiro</h5>
                         <p class="card-text">1 room, living room, kitchen,bathroom,garden </p>
@@ -45,7 +39,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                <img src="../assets/img/cabins3.jpeg"  class="card-img-top" alt="card1">
+                    <img src="../assets/img/cabins3.jpeg" class="card-img-top" alt="card1">
                     <div class="card-body">
                         <h5 class="card-title">Cabin guatape</h5>
                         <p class="card-text">1 room,bathroom,kitchen,garden</p>
@@ -55,14 +49,12 @@
                     </div>
                 </div>
             </div>
-
             <br>
-
             <section class="container">
                 <div class="row mt-3">
                     <div class="col-sm-4">
                         <div class="card">
-                        <img src="../assets/img/cabins4.jpeg"  class="card-img-top" alt="card1">
+                            <img src="../assets/img/cabins4.jpeg" class="card-img-top" alt="card1">
                             <div class="card-body">
                                 <h5 class="card-title">Cabin san jeronimo</h5>
                                 <p class="card-text">2 room, bathroom,kitchen,garden,living room </p>
@@ -72,11 +64,9 @@
                             </div>
                         </div>
                     </div>
-
-
                     <div class="col-sm-4">
                         <div class="card">
-                        <img src="../assets/img/cabins6.jpeg"  class="card-img-top" alt="card1">
+                            <img src="../assets/img/cabins6.jpeg" class="card-img-top" alt="card1">
                             <div class="card-body">
                                 <h5 class="card-title">Cabin guatape</h5>
                                 <p class="card-text">3 room, bathroom,kitchen,garden,living room,lake</p>
@@ -88,7 +78,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="card">
-                        <img src="../assets/img/cabins7.jpeg"  class="card-img-top" alt="card1">
+                            <img src="../assets/img/cabins7.jpeg" class="card-img-top" alt="card1">
                             <div class="card-body">
                                 <h5 class="card-title">Cabin barbosa</h5>
                                 <p class="card-text">1 room, living room, kitchen,bathroom,garden</p>
@@ -97,7 +87,6 @@
                                 <button type="button" class="btn btn-success">Rent</button>
                             </div>
                         </div>
-                    </div>
-
+            </section>
+        </div>
 </body>
-</section>

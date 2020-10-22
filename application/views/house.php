@@ -1,6 +1,6 @@
 <body style="background-color:black;">
 <div class="card bg-dark text-white">
-    <img src="../assets/img/house7.jpeg" class="card-img" alt="...">
+    <img src="../assets/img/house8.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
             <br><br>
             <font size=6 class="card-title"><b>SPACIOUS <p> HOUSES<b></font>
@@ -99,6 +99,8 @@
                             </div>
                         </div>
                     </div>
-            </section>
-            </main>
+                    </section>
+        </div>
 </body>
+
+<footer></footer>

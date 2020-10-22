@@ -18,6 +18,7 @@ class Update_C extends CI_Controller{
         $email=$this->input->post('email');
         $identification=$this->input->post('identification');
         $typeidentification=$this->input->post('typeidentification');
+        $typeUsers=$this->input->post('typeUsers');
             $userData =array(
             'id' =>$id,
             'user'=>$user,
@@ -27,6 +28,7 @@ class Update_C extends CI_Controller{
             'email'=>$email,
             'identification'=>$identification,
             'typeidentification'=>$typeidentification,
+            'typeUsers'=>$typeUsers
             );
             $response= $this->Update_M->update($userData);
                 $redirect = base_url()."/home";

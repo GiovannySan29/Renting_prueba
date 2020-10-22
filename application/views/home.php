@@ -1,8 +1,4 @@
-<br>
-
 <form action="<?php echo base_url() . "home/index" ?>" method="POST">
-
-
   <div class="card bg-dark text-white">
     <img src="../assets/img/principal.jpeg" class="card-img" alt="...">
     <div class="card-img-overlay">
@@ -13,11 +9,7 @@
       <p class="card-text">explore nearby places</p>
     </div>
   </div>
-  
-
-
-
-  <div class="card-group">
+    <div class="card-group">
     <div class="card">
       <img src="../assets/img/house.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -43,5 +35,5 @@
       </div>
     </div>
   </div>
-  </section>
-  </main>
+
+  </body>

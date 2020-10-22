@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url(). "home" ?>">Home</a>
+                        <a class="nav-link" href="<?php echo base_url(). "home/index" ?>">Home</a>
                     </li>
                    </ul>
                    <li class="nav-item dropdown">
